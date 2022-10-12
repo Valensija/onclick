@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9cfd5;
+    font-family: "Roboto", sans-serif;
+}
+.navigation,
+.contact {
+    float: left;
+    padding-left: 20px;
+}
+.navigation ul,
+.contact ul {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    list-style: none;
+}
+.navigation li,
+.contact li {
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 14px;
+}
+.navigation a,
+.contact a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #000;
+}
+.navigation a:hover {
+    background-color: #5184ab;
+}
+.navigation .active a {
+    position: relative;
+}
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    padding: 20px 0;
+}
+.contact a:hover {
+    background-color: #5184ab;
+}
