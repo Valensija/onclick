@@ -4,6 +4,12 @@ body {
     background-color: #f9cfd5;
     font-family: "Roboto", sans-serif;
 }
+
+/*gav en klass till listan li, använder flex till att flytta navigeringen horisontellt*/
+.main-nav,
+.contact-footer {
+    display: flex;
+}
 .navigation,
 .contact {
     float: left;
@@ -25,7 +31,8 @@ body {
 .navigation a,
 .contact a {
     display: block;
-    padding: 15px 0;
+    /*sätt upp padding 15px från varje sida*/
+    padding: 15px;
     text-decoration: none;
     color: #000;
 }
@@ -36,6 +43,7 @@ body {
     position: relative;
 }
 h1 {
+    padding-top: 50px;
     text-align: center;
 }
 img {
